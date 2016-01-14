@@ -1,0 +1,90 @@
+
+<!DOCTYPE HTML>
+<!--
+    Spectral by HTML5 UP
+    html5up.net | @n33co
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+<title>Party Cop</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+<link rel="stylesheet" href="assets/css/main.css" />
+<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+</head>
+<body>
+
+<!-- Page Wrapper -->
+<div id="page-wrapper">
+
+    <!-- Header -->
+    <header id="header">
+        <h1><a href="index.html">Home</a></h1>
+        <nav id="nav">
+            <ul>
+                <li class="special">
+                <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                <div id="menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#portfolio">Portfolio</a></li>
+                        <li><a href="saphire.html">SAPHIRE</a></li>
+                        <li><a href="partycop.html">Party Cop</a></li>
+                        <li><a href="vdmi.html">Virtual Desktop Resource Management Platform</a></li>
+                        <li><a href="bayesian.html">Na&iuml;ve Bayesian news classifier</a></li>
+                        <li><a href="tdmi.html">Time-division Multiplexing of ECU Controller Area Network</a></li>
+                    </ul>
+                </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <article id="main">
+        <header>
+          <h2>
+            Party Cop
+          </h2>
+        </header>
+        <section class="wrapper style5">
+          <div class="inner">
+						<p>
+							This project aims at developing a robot that semi-autonomously guides itself among people at parties with an ethanol sensor to let people know how much they have consumed. 
+							<br>
+							As a team, we equipped an iRobot Create with a BeagleBone Black for wireless communication. We also implemented an ultrasonic sensor-based radar and object detection and avoidance mechanism, but due to the precision-limitation of the ultrasonic sensor, the robot could not cruise fully autonomously.
+							<br>
+							To solve this and to ease users from the burden of controlling the movements of the robot, I implemented an eye tracking functionality. An EyeTribe eye tracker detected the user's gaze positions, and depending on its quadrant-positions (i.e. TL: go straight, TR: go back, BL: turn clockwise by 90 degrees, BR: turn counter-clockwise by 90 degrees), it sends commands to the robot.
+							<br>
+							I'm also working on data visualization and the PartyCop website, and the future track of this project is to utilize the collected data for visualization (via D3.js) as well as for connection with 3rd party applications (via IFTTT) such as Facebook, Uber, Messengers, etc. 
+						</p>
+          </div>
+        </section>
+    </article>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <ul class="icons">
+            <li><a href="https://github.com/ein3108" class="icon fa-dribbble"><span class="label">Github</span></a></li>
+        </ul>
+        <ul class="copyright">
+            <li>&copy; Hyeonsu B. Kang</li><li>Design: <a href="http://html5up.net">Powered by HTML5 UP</a></li>
+        </ul>
+    </footer>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

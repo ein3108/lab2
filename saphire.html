@@ -1,0 +1,99 @@
+
+<!DOCTYPE HTML>
+<!--
+    Spectral by HTML5 UP
+    html5up.net | @n33co
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+<title>SAPHIRE</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+<link rel="stylesheet" href="assets/css/main.css" />
+<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+</head>
+<body>
+
+<!-- Page Wrapper -->
+<div id="page-wrapper">
+
+    <!-- Header -->
+    <header id="header">
+        <h1><a href="index.html">Home</a></h1>
+        <nav id="nav">
+            <ul>
+                <li class="special">
+                <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                <div id="menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#portfolio">Portfolio</a></li>
+                        <li><a href="saphire.html">SAPHIRE</a></li>
+                        <li><a href="partycop.html">Party Cop</a></li>
+                        <li><a href="vdmi.html">Virtual Desktop Resource Management Platform</a></li>
+                        <li><a href="bayesian.html">Na&iuml;ve Bayesian news classifier</a></li>
+                        <li><a href="tdmi.html">Time-division Multiplexing of ECU Controller Area Network</a></li>
+                    </ul>
+                </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <article id="main">
+        <header>
+          <h2>
+            SAPHIRE
+          </h2>
+        </header>
+        <section class="wrapper style5">
+          <div class="inner">
+						<p>
+              (Smart semi-Autonomous Processing Household repertoIRE)
+							The main goal of this project aimed at providing an intelligent household prototype that understands user voice commands and needs such that it can automatically orchestrate household resources and perform tasks in favor of user goals. The project was called SAPHIRE, and I designed  and  developed  the  server  system  of  it. The  server  was  built  using  Node.js  and  deployed using Amazon Elastic Beanstalk.
+							<br>
+							I also incorporated MongoDB for a device and object model database, utilized Socket.io in the server and its Java client library in the Google Glass application (this application was named as "GlassHouse") to establish a real-time communication channel between the two.
+							<br>
+							I also developed an online animation platform (minus the actual animator images) which simulated a desk lamp, a refrigerator, a microwave, a washer and an iRobot Create, imagining that those devices will be connected to the household network and communicating with the server. Also, I equipped an actual iRobot Create with a Beaglebone Black and connected it to the SAPHIRE server -- such that user's voice commands (for instance, "clean the floor" or "stop cleaning") via GlassHouse can duplicate corresponding actions on the device as well as on the animator.
+						</p>
+          </div>
+          <center>
+          <p>
+          <b>The Schematic diagram of the SAPHIRE system</b>
+          </p>
+          <img src="SAPHIREschematic.png" alt="The schematic diagram of the SAPHIRE system">
+          <p>
+          <b>Simulators</b>
+          </p>
+          <img src="Simulator Space.png" alt="Simulators">
+          </p>
+        </section>
+    </article>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <ul class="icons">
+            <li><a href="https://github.com/ein3108" class="icon fa-dribbble"><span class="label">Github</span></a></li>
+        </ul>
+        <ul class="copyright">
+            <li>&copy; Hyeonsu B. Kang</li><li>Design: <a href="http://html5up.net">Powered by HTML5 UP</a></li>
+        </ul>
+    </footer>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
